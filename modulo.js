@@ -2,11 +2,11 @@ export class sitegeral{
     resolucao(){
         return cy.viewport(1360, 768);
     }
-}
-export class paginacadastro{
     site(){
         return cy.visit("https://demo.nopcommerce.com/");
     }
+}
+export class paginacadastro{
     botaoregistro(){
         return cy.get('.ico-register').click();
     }
@@ -44,9 +44,6 @@ export class paginacadastro{
     }
 }
 export class paginalogin{
-    site(){
-        return cy.visit("https://demo.nopcommerce.com/");
-    }
     botaologin(){
         return cy.get('.ico-login').click();
     }

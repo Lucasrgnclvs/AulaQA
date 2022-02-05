@@ -1,11 +1,11 @@
 describe("Desafio", () => {
 
     before(() => {
-        cy.viewport(1360, 768);      
+        cy.viewport(1360, 768);
+        cy.visit("https://demo.nopcommerce.com/");      
     })
 
     it("Cadastro", () => {
-        cy.visit("https://demo.nopcommerce.com/");
         cy.get('.ico-register').click();
         cy.get('#gender-male').click();
         cy.get('#FirstName').type("Nome");

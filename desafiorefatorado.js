@@ -7,11 +7,11 @@ describe("Desafio", () => {
     const login = new paginalogin();
 
     before(() => {
-        geral.resolucao();      
+        geral.resolucao();
+        geral.site();      
     })
 
     it("Cadastro", () => {
-        cadastro.site();
         cadastro.botaoregistro();
         cadastro.caixagenero();
         cadastro.nome("Nome", "Sobrenome");
@@ -27,7 +27,6 @@ describe("Desafio", () => {
     })
 
     it.skip("Login", () => {
-        login.site();
         login.botaologin();
         login.dados("teste@teste.com", "Teste1");
         login.caixasenha();
