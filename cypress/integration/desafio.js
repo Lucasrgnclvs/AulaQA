@@ -1,4 +1,3 @@
-
 import {  ModCompraS, ConfirmTelaInicial, paginacadastro } from "./modulo/modulo.js";
 
 before(() => {
