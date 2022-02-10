@@ -55,6 +55,6 @@ export class paginalogin{
         return cy.get('#RememberMe').click();
     }
     botaoacessar(){
-        cy.get('form > .buttons > .button-1').click();
+        return cy.get('form > .buttons > .button-1').click();
     }
 }
