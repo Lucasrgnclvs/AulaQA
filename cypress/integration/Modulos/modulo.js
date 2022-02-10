@@ -42,6 +42,9 @@ export class paginacadastro{
     botaofinal(){
         return cy.get('.buttons > .button-1').click();
     }
+    checagem(){
+        return cy.get('.ico-logout'); 
+    }
 }
 export class paginalogin{
     botaologin(){
@@ -56,5 +59,8 @@ export class paginalogin{
     }
     botaoacessar(){
         return cy.get('form > .buttons > .button-1').click();
+    }
+    checagem(){
+        return cy.get('.ico-logout');
     }
 }
