@@ -1,4 +1,4 @@
-import {paginacadastro, paginalogin, sitegeral} from "./Modulos/modulo_cadastro.js";
+import {paginacadastro, paginalogin, sitegeral} from "./Modulos/modulo.js";
 
 describe("Desafio", () => {
 
