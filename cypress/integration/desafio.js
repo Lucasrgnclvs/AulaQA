@@ -23,7 +23,7 @@ describe("Desafio", () => {
         cadastro.senha("Teste1", "Teste1");
         cadastro.botaocadastrar();
         cadastro.botaofinal();
-        cy.get('.ico-logout').should("contain", "Log out");
+        cadastro.checagem().should("contain", "Log out");
     })
 
     it.skip("Login", () => {
@@ -31,6 +31,6 @@ describe("Desafio", () => {
         login.dados("teste@teste.com", "Teste1");
         login.caixasenha();
         login.botaoacessar();
-        cy.get('.ico-logout').should("contain", "Log out");
+        login.checagem().should("contain", "Log out");
     })
 })
