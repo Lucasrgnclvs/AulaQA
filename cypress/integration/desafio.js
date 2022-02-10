@@ -1,4 +1,4 @@
-import {  ModCompraS, ConfirmTelaInicial, paginacadastro } from "./modulo/modulo.js";
+import {  ModCompraS, ConfirmTelaInicial, paginacadastro } from "./Modulos/modulo.js";
 
 before(() => {
 
